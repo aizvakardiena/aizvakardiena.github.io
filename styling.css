@@ -33,15 +33,7 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
-}
-/* Footer styling */
-footer {
-  text-align: center;
-  font-size: 0.9em;
-  color: #6c757d;
-  margin-top: 40px;
-}
-.gallery {
+  .gallery {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
@@ -54,3 +46,12 @@ footer {
   object-fit: cover;
   display: block;
 }
+}
+/* Footer styling */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #6c757d;
+  margin-top: 40px;
+}
+
